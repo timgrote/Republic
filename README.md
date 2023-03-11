@@ -5,7 +5,7 @@ Right now it's a vault in obsidian, till I figure out what format it should be i
 
 You can open the repo folder in [Obsidian](https://obsidian.md/), or just browse around the files in Github for now.  Note the obsidian links aren't  working in github and most of the files are in the [Voting folder.](https://github.com/timgrote/Republic/tree/main/Voting)
 
-Intention: Build a voting app, probably on  some layer of the ETH chain. If the identity part of it starts working, figure out a way to apply it to social networking and news.
+Intention: Build a voting app, probably on  some layer of the ETH chain using web3.js+react+node.js. If the identity part of it starts working, figure out a way to apply it to social networking and news.
 
 
 ### Feedback
