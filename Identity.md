@@ -15,7 +15,7 @@ To start, let's get a basic level of a Verified Registered Voter:
 - Have a gov issued ID
 - Are in a state/county database of registered voters. [Example](https://www.sos.state.co.us/voter/pages/pub/olvr/findVoterReg.xhtml)
 
-A trusted Notary could vouch that they witnessed both the person show the ID, and looked up the ID in the database. They could then issue a token to the voter, that they've been verified. The token is sent to a crypto wallet. The voter doesn't need to know about the wallet, they just need to be able to sign stuff. 
+A trusted [[Notary]] could vouch that they witnessed both the person show the ID, and looked up the ID in the database. They could then issue a token to the voter, that they've been verified. The token is sent to a crypto wallet. The voter doesn't need to know about the wallet, they just need to be able to sign stuff. 
 
 If a user loses their phone, or their private key, they can go see the Notary again, and the Notary will re-issue TheToken to the individuals new public address. The users name, DOB, and VoterID could possibly be encrypted in the TheToken, with the private key able to decrypt it. The private key/seed could be generated at the time of verification. 
 
@@ -32,12 +32,8 @@ A republic trusts the states that comprise it.
 The states trust the other states in the republic 
 
 
+An identity holds [[Reputation]]
 
-# Reputation
-Reputation is trust verified by others. An reputation score tied to an identity makes that identity useful to others. An identity can have reputations on multiple subjects, such as areas of expertise, overall truth telling, etc. Reputation is given by others evaluating an individuals actions or proclamations. Therefore, reputation is given by others, not the person 'holding' the reputation.
-
-Reputation is important in the social setting, because it is given in a social context, by others.
-Reputation can be used with social media to [Turn Up the Signal, Turn Down the Noise.](https://worldcoin.org/privacy) 
 
 It is also useful for 
 

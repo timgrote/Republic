@@ -1,6 +1,8 @@
 The thought on this is to have a way for people to vote that can be trusted. It empowers the individual by letting them vote anonymously and securely.
 
-Initially I'm thinking this is a no brainer for a blockchain app. Daniel Brr? may think otherwise, and he seems to have thought a ton about Digital IDs. We should speak to other people about how to prove identity. Part of this is going to end up being showing proof of personhood. This in it's self is a huge idea to tackle.
+Initially I'm thinking this is a no brainer for a blockchain app. Daniel Brr? may think otherwise, and he seems to have thought a ton about Digital IDs [[DID]]. We should speak to other people about how to prove identity. Part of this is going to end up being showing proof of personhood. This in it's self is a huge idea to tackle.
+
+Perhaps the organization of this project could be thought of as a [[DAO]]
 
 ## The Vision
 The initial vision of this project was to have a voting app for the 2024 US election. The app will not be connected to the official election. But it goes viral and both people on the left and right end up using it. One side will initially use it to say that their candidate obviously has more votes. The other side will scoff. Then they will realize that they can participate in it too, and they will co-opt it to get their team going. At some point the media picks up on this on both sides and the whole thing goes viral. The American (US) people (and possibly the world) end up realizing that they have a vote that is:
@@ -8,6 +10,8 @@ The initial vision of this project was to have a voting app for the 2024 US elec
 - Not controlled by any one group
 - transparent: all votes can be seen, and the way they're counted and tallied is in the open.
 - Flexible: The ballot can include different voting methods, from the electoral college (yuck), popular vote, ranked choice, etc. People could choose their voting methods
+
+### Interface
 The election/poll is summarized on a website call it the [[ElectionView]], with an easy to understand graph (pie chart?). On this pie chart, you can zoom in and see individual votes, it's made up of hexagons, each one being a vote. If the user is signed in, they can go see their vote and the thing will zoom to their vote (google earth style) This is the joy of the thing, seeing your vote as part of a larger whole. When you click on your vote, you can decrypt it, verify it, change  it even.  The [[ElectionView]] is what ends up going viral in the media. There are no visible sponsors. Maybe we agree to take starter money from the Libertarian Party (maybe not). Eventually both red and blue teams start paying attention to development. It starts to make headway. By 2026 people are paying attention to it from the start, it's bigger, it's trusted more. 2028 and maybe some cities/network states are holding elections with this thing. People will realize that their ID is sovereign and that sovereignty will empower a new way of interacting with each other.  At some point, people realize that this is how they want government to be chosen, how it can function. There's some quote (Buckminster Fuller?) about how you don't tear down old systems, you build better ones. That's this project.
 
 # Tasks
@@ -22,11 +26,25 @@ The election/poll is summarized on a website call it the [[ElectionView]], with 
 - [ ] Iterate
 
 ## The App
-The app is what people interact with on their phones/computers. It has to be easy to understand, easy to use. To start it has the following screens:
+The app is what people interact with on their phones/computers. It has to be easy to understand, easy to use.
+
+#### Screens/Views
+To start it has the following screens:
 - [[ElectionView]]
 - [[BallotView]]
 - [[ProfileView]]
 - [[OnboardingView]]
+
+#### Wallet
+I expect some [[DID]] people to get mad at this choice.
+
+The app has a crypto wallet. BIP39 or whatever the latest standard is. 24 seed words (and 25th if they want). For the most part the user doesn't know the wallet is there. There's no place showing a balance or any tie to crypto. Someone could import the seed in the voting wallet to a different wallet and see it. But that's not hte point. People don't want a wallet. *Wallet* isn't even a good name for what that software does.
+
+If they user loses their phone (or key) then it's easy enough to generate a new seed phrase and start from scratch, as long as they get verified by [[Notary]]. At that point the user
+
+
+
+
 
 ### Get the Vote Out
 One idea is to have the app be a sort of 'get the vote out' app. In order to use the app, you have to be a registered voter. If you you're not registered, we can tell them where to go to get registered. The app will encourage voters. Well build a killer front end to it. Maybe take donations from different political parties, (not just libertarian)
